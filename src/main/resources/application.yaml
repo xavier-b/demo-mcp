@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: demo-mcp
+
+  ai:
+    mcp:
+      server:
+#        protocol: stateless
+        protocol: streamable
