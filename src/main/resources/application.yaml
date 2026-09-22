@@ -7,3 +7,9 @@ spring:
       server:
 #        protocol: stateless
         protocol: streamable
+        streamable-http:
+          mcp-endpoint: /mcp-weather
+
+#logging:
+#  level:
+#    org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
